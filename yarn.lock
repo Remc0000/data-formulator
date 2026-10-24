@@ -1268,25 +1268,25 @@
   resolved "https://registry.npmjs.org/@tiptap/extension-strike/-/extension-strike-3.22.2.tgz"
   integrity sha512-YFC3elKU1L8PiGbcB6tqd/7vWPF5IbydJz0POJpHzSjstX+VfT8VsvS7ubxVuSIWQ11kGkH3mzX6LX8JHsHZxg==
 
-"@tiptap/extension-table-cell@^3.23.6":
-  version "3.23.6"
-  resolved "https://registry.npmjs.org/@tiptap/extension-table-cell/-/extension-table-cell-3.23.6.tgz"
-  integrity sha512-hS9TmmvRlT9/ikT+0ukACS+hmJuii4zQaH47cg3oJkz/Fv7O7tL7GZniKtK6l2OUZGPhY+4SV2RkDB6bD7DXfw==
+"@tiptap/extension-table-cell@^3.22.2":
+  version "3.32.0"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-table-cell/-/extension-table-cell-3.32.0.tgz#ba1e973b0976cd16b535d1058b0056a153dfa2ee"
+  integrity sha512-gJ2Jf19tu6teiXrI+2kJXJr3fZ9DQCpThxgmPoVT9FV4O+R+cuR98D+R5fxNoQ22lD3/tZO8lBV5m/Bm67aLJQ==
 
-"@tiptap/extension-table-header@^3.23.6":
-  version "3.23.6"
-  resolved "https://registry.npmjs.org/@tiptap/extension-table-header/-/extension-table-header-3.23.6.tgz"
-  integrity sha512-D6o0a1cJXUU0xWakainBFGPnGHinQkPcdu1YqGd/PoFANY38lnuZt/NW2O/OLfLXu5LXDRfpqF1+dsKww27dUA==
+"@tiptap/extension-table-header@^3.22.2":
+  version "3.32.0"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-table-header/-/extension-table-header-3.32.0.tgz#e6cb5c49b7d5fab225c2e2c82075a7bb07e14332"
+  integrity sha512-UNJG3lK3g534Dhwxzu2UOXSfyY/EFFR1zaSkDGTAEWPsfEbV2fr+8VhTZZCBgUR7brU7PxIpgZlJ7oqoxjo4jA==
 
-"@tiptap/extension-table-row@^3.23.6":
-  version "3.23.6"
-  resolved "https://registry.npmjs.org/@tiptap/extension-table-row/-/extension-table-row-3.23.6.tgz"
-  integrity sha512-OauWVzkyRQg0rKOqM/a3PuKPc1S7YXMb1LRN7Nh8Ytvglvd7GFRTbl1lVqdZRaz4Jzopag4PQnriIZfMPUpxWw==
+"@tiptap/extension-table-row@^3.22.2":
+  version "3.32.0"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-table-row/-/extension-table-row-3.32.0.tgz#460abeb95334deda469aaab7a02f22a74fa27cfa"
+  integrity sha512-s4qwMZOZoCmsXbqY+BGvOI/q7jzukum4smlIO83rqHJTsZyG2UarZF0oWRuCtjR5DoBZLBD3SVW0rUtKDtbIjA==
 
-"@tiptap/extension-table@^3.23.6":
-  version "3.23.6"
-  resolved "https://registry.npmjs.org/@tiptap/extension-table/-/extension-table-3.23.6.tgz"
-  integrity sha512-XbhZXjhsS6AP7ThoZxjAnNs+NiR81YRori25l6E+ORqB7quiPkIXOAi5h4AIpkn/CYIqze6ere11lWsYpDjtaQ==
+"@tiptap/extension-table@^3.22.2":
+  version "3.32.0"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-table/-/extension-table-3.32.0.tgz#26ce1fa2b7e10fa91bc1e161c99913f83a17098c"
+  integrity sha512-uOqCzWzxXvMccapZo+1CDxp3JGegxqNl11Lj8XiiWLxwmg81B/bKwMJW7+YlIdffgGNYJETk5YwL8T0IVBD2QQ==
 
 "@tiptap/extension-text@^3.22.2":
   version "3.22.2"
@@ -2996,17 +2996,10 @@ dom-helpers@^5.0.1:
     "@babel/runtime" "^7.8.7"
     csstype "^3.0.2"
 
-dompurify@*, dompurify@^3.4.2:
-  version "3.4.7"
-  resolved "https://registry.npmjs.org/dompurify/-/dompurify-3.4.7.tgz#e2702ea4fd5d83467f1baef62309466ce7d44a82"
-  integrity sha512-2jBxDJY4RR06tQNy4w5FlFH7kfxsQZlufd0sbv+chfHCxeJwrFw2baUDsSwvBISD4K4RDbd0PTfy3uNXsR6siA==
-  optionalDependencies:
-    "@types/trusted-types" "^2.0.7"
-
-dompurify@^3.4.0:
-  version "3.4.5"
-  resolved "https://registry.npmjs.org/dompurify/-/dompurify-3.4.5.tgz"
-  integrity sha512-OrwIBKsdNSVEeubdJ1HBv/wNENRM9ytAVCv7YXt//A3vPdVMNuACRqK9mXCGCBW2ln7BT/A4X0jXHo2Gu89miA==
+dompurify@*, dompurify@^3.4.17, dompurify@^3.4.2:
+  version "3.4.17"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-3.4.17.tgz#074bbb24eaa419535ac19ffe7f663104b0e1543d"
+  integrity sha512-B/pSlYVHQ58kqISD/yDjuJ1yfzI34m1gF4lAod2bwSRhiN4K5Cl3H8Af7hqB2PmTL911tdEudnnXn5FnhRoz0w==
   optionalDependencies:
     "@types/trusted-types" "^2.0.7"
 
